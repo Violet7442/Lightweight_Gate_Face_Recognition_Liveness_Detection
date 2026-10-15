@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== 项目特定 =====
+# 大文件（超过 GitHub 单文件 100MB 限制）
+vit.zip
+dinov2.zip
+
+# 模型权重
+*.pth
+
+# Jupyter 临时文件
+.ipynb_checkpoints/
+
+# 训练输出日志与可视化
+logs*/
+vis_results*/
+
+# 嵌套 git 仓库（作为普通目录推送）
+dinov2/.git/
+vit/.git/
